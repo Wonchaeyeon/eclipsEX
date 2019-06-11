@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="sun.util.locale.StringTokenIterator"/>
+    <fullyQualifiedTypeName name="FileReaderExam"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="p153_ThrowExam"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>
