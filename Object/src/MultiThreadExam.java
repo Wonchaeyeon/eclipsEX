@@ -1,12 +1,12 @@
 
 class Summing{
 	private int sum;
-	public synchronized void sumTo(int num) {
+	public  synchronized void sumTo(int num) {
 		sum = 0;
 		for(int i=1;i<=num;i++) {
 			sum+=i;
 			System.out.print("쓰레드: "+Thread.currentThread().getName());
-			System.out.println("이 1~"+i+"까지 합은 "+sum);
+			System.out.println("의 1~"+i+"까지 합은 "+sum);   //
 			try {
 				Thread.sleep(500);    //500/100ms = 0.5s 중간에 잠을 재워서 잠깜동안 다른 애가 출력되게 함. 
 			} catch (InterruptedException e) {

@@ -15,4 +15,6 @@
     <fullyQualifiedTypeName name="p153_ThrowExam"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="Summing"/>
+    <fullyQualifiedTypeName name="MultiThreadExam"/>
 </qualifiedTypeNameHistroy>
