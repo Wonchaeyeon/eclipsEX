@@ -1,3 +1,4 @@
+import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -24,6 +25,8 @@ public class GUI2_Components {
         cbox0.addItem("지금은 자바시간");
         cbox0.addItem("지금은 파이썬시간");
 
+        JLabel lbResult = new JLabel("Result");
+
         bt0.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -41,6 +44,7 @@ public class GUI2_Components {
         panel.add(tf0);
         panel.add(ta0);
         panel.add(cbox0);
+        panel.add(lbResult);
 
         frame.add(panel);
 
