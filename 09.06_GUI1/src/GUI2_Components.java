@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GUI2_Components {
     public static void main(String[] args) {
@@ -21,6 +23,13 @@ public class GUI2_Components {
         JComboBox<String> cbox0 = new JComboBox<>(a);
         cbox0.addItem("지금은 자바시간");
         cbox0.addItem("지금은 파이썬시간");
+
+        bt0.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                bt0.setText("Clicked");
+            }
+        });
 
 
         panel.add(lb0);
