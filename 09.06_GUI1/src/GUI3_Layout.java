@@ -8,7 +8,6 @@ public class GUI3_Layout {
 
             FlowLayout fl=new FlowLayout();      //JPanel 의 기본 Layout
             fl.setAlignment(FlowLayout.LEFT);
-            fl.setAlignment(FlowLayout.RIGHT);
             panel.setLayout(fl);
 
             for(int i=0;i<6;i++){
