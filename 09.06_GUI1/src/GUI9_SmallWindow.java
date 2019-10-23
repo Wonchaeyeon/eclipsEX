@@ -13,7 +13,8 @@ public class GUI9_SmallWindow {
         JDialog dialog = new JDialog(frame,"다이얼로그",false);   //modal:(True)자신이 꺼지지 않으면 원래 창이 활성화 되지 않음
         JLabel lb = new JLabel("레이블");
         dialog.add(lb);
-        dialog.pack();
+        //dialog.pack();
+        dialog.setSize(new Dimension(100,200));
 
 
         bt0.addActionListener(new ActionListener() {
